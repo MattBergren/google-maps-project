@@ -10,11 +10,13 @@
 	<div class="container">
 		<h1>Hello Google maps project</h1>
 		<div class="row">
-			<div class="col-sm-6 sidebar">
+			<div class="col-sm-4 sidebar">
 				<h2>list goes herse</h2>
 			</div>
-			<div class="col-sm-6 map">
-				<h2>Map goes here</h2>
+			<div class="col-sm-8 map-column">
+				<div id="map">
+					
+				</div>
 			</div>
 		</div>
 	</div>
@@ -22,6 +24,8 @@
 
 
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"   integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g="   crossorigin="anonymous"></script>
+<script async defer 
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABAY2bQHzq8IqBVzjrg1KoIsb3G7pd7oU&v=3&callback=initMap"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
